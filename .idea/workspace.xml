@@ -5,30 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c68c0590-49b7-48dc-a83d-b8a07591b98e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1002_AutomationExercises.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1003_AutomationExercises.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1004_AutomationExercises.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1005_AutomationExercises.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1006_AutomationExercises.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1007_AutomationExercises.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1008_AutomationExercises.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1009_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/AutomationExercises.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AutomationExercisesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AutomationExercisesPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/AutoExeStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/AutoExeStepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1001_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1001_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/US1001_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/US1001_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/AutomationExercisesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/AutomationExercisesPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/AutoExeStepDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/AutoExeStepDefinition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ConfigReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/ConfigReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../elifhoca_selenium/59TestNG2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -265,6 +243,9 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Cucumber Java.Feature: US1001_AutomationExercises" />
+      <item itemvalue="Cucumber Java.Scenario: TC01 kullanici automationexercise sitesine login olur" />
+      <item itemvalue="Cucumber Java.Scenario: kullanici automationexercise sitesine login olur" />
       <item itemvalue="Cucumber Java.Feature: US1006_AutomationExercises" />
       <item itemvalue="Cucumber Java.Feature: US1007_AutomationExercises" />
       <item itemvalue="Cucumber Java.Feature: US1008_AutomationExercises" />

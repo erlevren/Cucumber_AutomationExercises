@@ -298,6 +298,10 @@ public class AutoExeStepDefinition {
             Driver.getDriver().navigate().back();
             auto.searchProduct.clear();
         }
+        for (WebElement each:auto.products) {
+            System.out.println(each.getText());
+        }
+        Driver.getDriver().navigate().back();
 
     }
 }
