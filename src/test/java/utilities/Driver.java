@@ -5,19 +5,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-
-
 import java.time.Duration;
-
 public class Driver {
     private Driver() {
 
     }
-
     static WebDriver driver;
-
     public static WebDriver getDriver() {
-
         if (driver == null) {
             switch (ConfigReader.getProperty("browser")) {
                 case "chrome":
