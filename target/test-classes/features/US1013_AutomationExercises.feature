@@ -1,6 +1,6 @@
-Feature: US1012 Kullanici AutomationExercises Sitesini Test Eder
+Feature: US1013 Kullanici AutomationExercises Sitesini Test Eder
 
-  Scenario: SN12 kullanici cart bolumunu ve icerigini test eder
+  Scenario: SN13 kullanici anasayfada random urun secer
     Given Navigate to url "autoUrl"
     Then Verify that home page is visible successfully
     And Click View Product for any product on home page

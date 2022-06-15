@@ -371,7 +371,6 @@ public class AutoExeStepDefinition {
         auto.productQuantity.clear();
         auto.productQuantity.sendKeys("4");
     }
-
     @And("Click Add to cart button")
     public void clickAddToCartButton() {
         auto.productAddToCart.click();
@@ -382,5 +381,98 @@ public class AutoExeStepDefinition {
         String actualQuantity = auto.productExactQuantity.getText();
         String expectedQuantity = "4";
         Assert.assertEquals(expectedQuantity, actualQuantity);
+    }
+    @And("Add products to cart")
+    public void addProductsToCart() {
+      js.executeScript("arguments[0].scrollIntoView(true);", auto.productAddToCartHomePage);
+      auto.productAddToCartHomePage.click();
+      auto.viewCart.click();
+    }
+    @And("Verify that cart page is displayed")
+    public void verifyThatCartPageIsDisplayed() {
+        Assert.assertTrue(auto.cartPageVisible.isDisplayed());
+    }
+    @And("Click Proceed To Checkout")
+    public void clickProceedToCheckout() {
+        auto.proceedToCheckout.click();
+    }
+    @And("Click Register Login button")
+    public void clickRegisterLoginButton() {
+        auto.proceedToCheckoutLogin.click();
+    }
+    @And("Fill all details in Signup and create account")
+    public void fillAllDetailsInSignupAndCreateAccount() {
+        auto.name.sendKeys(faker.name().fullName());
+        auto.email.sendKeys(faker.internet().emailAddress());
+        auto.signup.click();
+        auto.title.click();
+        auto.password.sendKeys(faker.internet().password());
+        actions.sendKeys(Keys.TAB).sendKeys("7").sendKeys(Keys.TAB)
+                .sendKeys("May").sendKeys(Keys.TAB).sendKeys("1983").perform();
+        auto.newsletter.click();
+        auto.receive.click();
+        actions.sendKeys(Keys.TAB)
+                .sendKeys(faker.name().firstName())
+                .sendKeys(Keys.TAB)
+                .sendKeys(faker.name().lastName())
+                .sendKeys(Keys.TAB)
+                .sendKeys("cosmospolit")
+                .sendKeys(Keys.TAB)
+                .sendKeys("where are you from :)")
+                .sendKeys(Keys.TAB)
+                .sendKeys(Keys.TAB)
+                .sendKeys("Canada")
+                .sendKeys(Keys.TAB)
+                .sendKeys("asdasdas")
+                .sendKeys(Keys.TAB)
+                .sendKeys("toronto")
+                .sendKeys(Keys.TAB)
+                .sendKeys("213213545")
+                .sendKeys(Keys.TAB)
+                .sendKeys(faker.phoneNumber().phoneNumber())
+                .sendKeys(Keys.TAB).click().perform();
+        auto.createAccount.click();
+    }
+    @And("Verify ACCOUNT CREATED and click Continue button")
+    public void verifyACCOUNTCREATEDAndClickContinueButton() {
+        js.executeScript("arguments[0].scrollIntoView(true);", auto.AccountCreatedVisible);
+        Assert.assertTrue(auto.AccountCreatedVisible.isDisplayed());
+        auto.continueButton.click();
+    }
+    @And("Verify Logged in as username at top")
+    public void verifyLoggedInAsUsernameAtTop() {
+        Assert.assertTrue(auto.loggedText.isDisplayed());
+    }
+    @And("Verify Address Details and Review Your Order")
+    public void verifyAddressDetailsAndReviewYourOrder() {
+        js.executeScript("arguments[0].scrollIntoView(true);", auto.adressDetails);
+        Assert.assertTrue(auto.adressDetails.isDisplayed());
+        js.executeScript("arguments[0].scrollIntoView(true);", auto.reviewYourOrder);
+        Assert.assertTrue(auto.reviewYourOrder.isDisplayed());
+    }
+    @And("Enter description in comment text area and click Place Order")
+    public void enterDescriptionInCommentTextAreaAndClickPlaceOrder() {
+        js.executeScript("arguments[0].scrollIntoView(true);", auto.commentAboutYourOrder);
+        auto.commentAboutYourOrder.sendKeys(faker.hitchhikersGuideToTheGalaxy().starship());
+        auto.placeOrderButton.click();
+    }
+    @And("Enter payment details: Name on Card, Card Number, CVC, Expiration date")
+    public void enterPaymentDetailsNameOnCardCardNumberCVCExpirationDate() {
+        auto.nameOnCard.sendKeys(faker.name().fullName());
+        actions.sendKeys(Keys.TAB)
+                .sendKeys(faker.business().creditCardNumber())
+                .sendKeys(Keys.TAB).sendKeys("311").sendKeys(Keys.TAB)
+                .sendKeys("12").sendKeys(Keys.TAB).sendKeys("2027").perform();
+    }
+    @And("Click Pay and Confirm Order button")
+    public void clickPayAndConfirmOrderButton() {
+        auto.payAndConfirmOrderButton.click();
+        Driver.getDriver().navigate().back();
+        Assert.assertTrue(auto.orderPlacedSuccessMesage.isDisplayed());
+        Driver.getDriver().navigate().forward();
+    }
+    @And("Verify success message Your order has been placed successfully!")
+    public void verifySuccessMessageYourOrderHasBeenPlacedSuccessfully() {
+        Driver.getDriver().navigate().refresh();
     }
 }

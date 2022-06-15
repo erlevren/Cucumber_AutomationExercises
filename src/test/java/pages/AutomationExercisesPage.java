@@ -142,6 +142,32 @@ public class AutomationExercisesPage {
     public WebElement productExactQuantity;
     @FindBy(xpath = "//*[@class='quantity']")
     public WebElement productExactQuantityCart;
+    @FindBy(xpath = "(//*[@class='btn btn-default add-to-cart'])[1]")
+    public WebElement productAddToCartHomePage;
+    @FindBy(xpath = "//*[@id='product-1']")
+    public WebElement cartPageVisible;
+    @FindBy(xpath = "//a[@class='btn btn-default check_out']")
+    public WebElement proceedToCheckout;
+    @FindBy(xpath = "//u[normalize-space()='Register / Login']")
+    public WebElement proceedToCheckoutLogin;
+    @FindBy(xpath = "//*[text()='Address Details']")
+    public WebElement adressDetails;
+    @FindBy(xpath = "//*[text()='Review Your Order']")
+    public WebElement reviewYourOrder;
+    @FindBy(xpath = "//*[@class='form-control']")
+    public WebElement commentAboutYourOrder;
+    @FindBy(xpath = "//*[text()='Place Order']")
+    public WebElement placeOrderButton;
+    @FindBy(xpath = "//*[@class='form-control']")
+    public WebElement nameOnCard;
+    @FindBy(xpath = "//*[@id='submit']")
+    public WebElement payAndConfirmOrderButton;
+    @FindBy(xpath = "//*[@id='success_message']")
+    public WebElement orderPlacedSuccessMesage;
+
+
+
+
 
 
 
