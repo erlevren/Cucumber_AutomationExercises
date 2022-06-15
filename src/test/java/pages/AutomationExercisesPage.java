@@ -106,13 +106,42 @@ public class AutomationExercisesPage {
     public List<WebElement> products;
     @FindBy(xpath = "//*[@class='features_items']")
     public WebElement searchAllProductsVisible;
-
-
-
-
-
-
-
+    @FindBy(xpath = "//h2[normalize-space()='Subscription']")
+    public WebElement subscription;
+    @FindBy(xpath = "//input[@id='susbscribe_email']")
+    public WebElement subscriptionEmail;
+    @FindBy(xpath = "//i[@class='fa fa-arrow-circle-o-right']")
+    public WebElement subscriptionEmailButton;
+    @FindBy(xpath = "//*[@class='alert-success alert']")
+    public WebElement subscriptionTextVisible;
+    @FindBy(xpath = "(//*[@href='/view_cart'])[1]")
+    public WebElement cartButton;
+    @FindBy(xpath = "(//*[@class='btn btn-default add-to-cart'])[1]")
+    public WebElement clickAddCartFirst;
+    @FindBy(xpath = "//button[@class='btn btn-success close-modal btn-block']")
+    public WebElement continueShoppingButton;
+    @FindBy(xpath = "(//*[@class='btn btn-default add-to-cart'])[3]")
+    public WebElement clickAddCartSecond;
+    @FindBy(xpath = "//u[normalize-space()='View Cart']")
+    public WebElement viewCart;
+    @FindBy(xpath = "//*[@id='cart_info_table']")
+    public List<WebElement> viewCartInfo;
+    @FindBy(xpath = "//*[@class='cart_price']")
+    public List<WebElement> cartPrice;
+    @FindBy(xpath = "//*[@class='cart_total']")
+    public List<WebElement> cartTotal;
+    @FindBy(xpath = "//*[text()='View Product']")
+    public List<WebElement> viewProduct;
+    @FindBy(xpath = "//*[@class='col-sm-7']")
+    public WebElement viewProductVisible;
+    @FindBy(xpath = "//*[@id='quantity']")
+    public WebElement productQuantity;
+    @FindBy(xpath = "//button[@type='button']")
+    public WebElement productAddToCart;
+    @FindBy(xpath = "//*[@class='disabled']")
+    public WebElement productExactQuantity;
+    @FindBy(xpath = "//*[@class='quantity']")
+    public WebElement productExactQuantityCart;
 
 
 

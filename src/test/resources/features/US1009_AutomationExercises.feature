@@ -1,6 +1,6 @@
-Feature: US1009 Kullanici bilgileri ile hesap olusturur
+Feature: US1009 Kullanici AutomationExercises Sitesini Test Eder
 
-  Scenario: SN9 kullanici automationexercise sitesine login olur
+  Scenario: SN9 kullanici product sayfasini test eder
     Given Navigate to url "autoUrl"
     Then Verify that home page is visible successfully
     And Click on Products button

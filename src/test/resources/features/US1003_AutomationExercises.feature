@@ -1,6 +1,6 @@
 Feature: US1003 Kullanici bilgileri ile hesap olusturur
 
-  Scenario: SN3 kullanici automationexercise sitesine login olur
+  Scenario: SN3 kullanici yanlis mail ve password ile giris yapilamadigini test eder
     Given Navigate to url "autoUrl"
     Then Verify that home page is visible successfully
     And wait 1 second

@@ -1,6 +1,6 @@
-Feature: US1005 Kullanici bilgileri ile hesap olusturur
+Feature: US1005 Kullanici AutomationExercises Sitesini Test Eder
 
-  Scenario: SN5 kullanici automationexercise sitesine login olur
+  Scenario: SN5 kullanici kayitli olan email adresi ile kayit olamamayi test eder
     Given Navigate to url "autoUrl"
     Then Verify that home page is visible successfully
     And wait 1 second

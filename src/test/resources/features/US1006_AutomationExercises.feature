@@ -1,6 +1,6 @@
-Feature: US1006 Kullanici bilgileri ile hesap olusturur
+Feature: US1006 Kullanici AutomationExercises Sitesini Test Eder
 
-  Scenario: SN6 kullanici automationexercise sitesine login olur
+  Scenario: SN6 kullanici contact us sayfasini test eder
     Given Navigate to url "autoUrl"
     Then Verify that home page is visible successfully
     And Click on Contact Us button

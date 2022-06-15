@@ -5,8 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c68c0590-49b7-48dc-a83d-b8a07591b98e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1010_AutomationExercises.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1011_AutomationExercises.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1012_AutomationExercises.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1013_AutomationExercises.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AutomationExercisesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AutomationExercisesPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/AutoExeStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/AutoExeStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1002_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1002_AutomationExercises.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1003_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1003_AutomationExercises.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1004_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1004_AutomationExercises.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1005_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1005_AutomationExercises.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1006_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1006_AutomationExercises.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1007_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1007_AutomationExercises.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1008_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1008_AutomationExercises.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1009_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1009_AutomationExercises.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/US1002_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/US1002_AutomationExercises.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/US1003_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/US1003_AutomationExercises.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/US1004_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/US1004_AutomationExercises.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/US1005_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/US1005_AutomationExercises.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/US1006_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/US1006_AutomationExercises.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/US1007_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/US1007_AutomationExercises.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/US1008_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/US1008_AutomationExercises.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/US1009_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/US1009_AutomationExercises.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/AutomationExercisesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/AutomationExercisesPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/AutoExeStepDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/AutoExeStepDefinition.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,26 +66,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Cucumber-testNG" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\javademos\AutomationExercises\src\test\resources\features" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: US1009_AutomationExercises">
-    <configuration name="Feature: US1001_AutomationExercises" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: US1013_AutomationExercises">
+    <configuration name="Feature: US1011_AutomationExercises" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <envs>
-        <env name="CUCUMBER_PUBLISH_TOKEN" value="750f78a5-e324-40b7-8452-403646585d76" />
-      </envs>
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1001_AutomationExercises.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1011_AutomationExercises.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AutomationExercises" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Feature: US1001_AutomationExercises" />
+      <option name="SUGGESTED_NAME" value="Feature: US1011_AutomationExercises" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -74,14 +93,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: US1006_AutomationExercises" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: US1012_AutomationExercises" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1006_AutomationExercises.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1012_AutomationExercises.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AutomationExercises" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: US1006_AutomationExercises" />
+      <option name="SUGGESTED_NAME" value="Feature: US1012_AutomationExercises" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -93,14 +112,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: US1007_AutomationExercises" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: US1013_AutomationExercises" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1007_AutomationExercises.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1013_AutomationExercises.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AutomationExercises" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: US1007_AutomationExercises" />
+      <option name="SUGGESTED_NAME" value="Feature: US1013_AutomationExercises" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -112,14 +131,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: US1008_AutomationExercises" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: SN10 kullanici cart bolumunu ve subscription bolumunu test eder" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1008_AutomationExercises.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1011_AutomationExercises.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AutomationExercises" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: US1008_AutomationExercises" />
+      <option name="NAME_FILTER" value="^SN10 kullanici cart bolumunu ve subscription bolumunu test eder$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^SN10 kullanici cart bolumunu ve subscription bolumunu test eder$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: SN10 kullanici cart bolumunu ve subscription bolumunu test eder" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -131,82 +151,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: US1009_AutomationExercises" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: SN12 kullanici cart bolumunu ve icerigini test eder" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1009_AutomationExercises.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1013_AutomationExercises.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AutomationExercises" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: US1009_AutomationExercises" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: SN9 kullanici automationexercise sitesine login olur" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1009_AutomationExercises.feature" />
-      <option name="GLUE" value="stepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="AutomationExercises" />
-      <option name="NAME_FILTER" value="^SN9 kullanici automationexercise sitesine login olur$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^SN9 kullanici automationexercise sitesine login olur$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: SN9 kullanici automationexercise sitesine login olur" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: TC01 kullanici automationexercise sitesine login olur" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <envs>
-        <env name="CUCUMBER_PUBLISH_TOKEN" value="750f78a5-e324-40b7-8452-403646585d76" />
-      </envs>
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1001_AutomationExercises.feature" />
-      <option name="GLUE" value="stepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="AutomationExercises" />
-      <option name="NAME_FILTER" value="^TC01 kullanici automationexercise sitesine login olur$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC01 kullanici automationexercise sitesine login olur$&quot;" />
-      <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC01 kullanici automationexercise sitesine login olur" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: kullanici automationexercise sitesine login olur" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <envs>
-        <env name="CUCUMBER_PUBLISH_TOKEN" value="750f78a5-e324-40b7-8452-403646585d76" />
-      </envs>
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1001_AutomationExercises.feature" />
-      <option name="GLUE" value="stepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="AutomationExercises" />
-      <option name="NAME_FILTER" value="^kullanici automationexercise sitesine login olur$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^kullanici automationexercise sitesine login olur$&quot;" />
-      <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: kullanici automationexercise sitesine login olur" />
+      <option name="NAME_FILTER" value="^SN12 kullanici cart bolumunu ve icerigini test eder$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^SN12 kullanici cart bolumunu ve icerigini test eder$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: SN12 kullanici cart bolumunu ve icerigini test eder" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -243,22 +196,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber Java.Feature: US1001_AutomationExercises" />
-      <item itemvalue="Cucumber Java.Scenario: TC01 kullanici automationexercise sitesine login olur" />
-      <item itemvalue="Cucumber Java.Scenario: kullanici automationexercise sitesine login olur" />
-      <item itemvalue="Cucumber Java.Feature: US1006_AutomationExercises" />
-      <item itemvalue="Cucumber Java.Feature: US1007_AutomationExercises" />
-      <item itemvalue="Cucumber Java.Feature: US1008_AutomationExercises" />
-      <item itemvalue="Cucumber Java.Scenario: SN9 kullanici automationexercise sitesine login olur" />
-      <item itemvalue="Cucumber Java.Feature: US1009_AutomationExercises" />
+      <item itemvalue="Cucumber Java.Feature: US1011_AutomationExercises" />
+      <item itemvalue="Cucumber Java.Scenario: SN10 kullanici cart bolumunu ve subscription bolumunu test eder" />
+      <item itemvalue="Cucumber Java.Feature: US1012_AutomationExercises" />
+      <item itemvalue="Cucumber Java.Feature: US1013_AutomationExercises" />
+      <item itemvalue="Cucumber Java.Scenario: SN12 kullanici cart bolumunu ve icerigini test eder" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: US1009_AutomationExercises" />
-        <item itemvalue="Cucumber Java.Scenario: SN9 kullanici automationexercise sitesine login olur" />
-        <item itemvalue="Cucumber Java.Feature: US1008_AutomationExercises" />
-        <item itemvalue="Cucumber Java.Feature: US1007_AutomationExercises" />
-        <item itemvalue="Cucumber Java.Feature: US1006_AutomationExercises" />
+        <item itemvalue="Cucumber Java.Feature: US1013_AutomationExercises" />
+        <item itemvalue="Cucumber Java.Scenario: SN12 kullanici cart bolumunu ve icerigini test eder" />
+        <item itemvalue="Cucumber Java.Feature: US1012_AutomationExercises" />
+        <item itemvalue="Cucumber Java.Scenario: SN10 kullanici cart bolumunu ve subscription bolumunu test eder" />
+        <item itemvalue="Cucumber Java.Feature: US1011_AutomationExercises" />
       </list>
     </recent_temporary>
   </component>
