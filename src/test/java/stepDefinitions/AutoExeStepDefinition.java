@@ -1,4 +1,5 @@
 package stepDefinitions;
+
 import com.github.javafaker.Faker;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -13,6 +14,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.AutomationExercisesPage;
 import utilities.ConfigReader;
 import utilities.Driver;
+
 import java.time.Duration;
 import java.util.Random;
 
@@ -49,6 +51,7 @@ public class AutoExeStepDefinition {
         auto.name.sendKeys(faker.name().fullName());
         auto.email.sendKeys(faker.internet().emailAddress());
     }
+
     @And("Click Signup button")
     public void clickSignupButton() {
         auto.signup.click();
@@ -58,6 +61,7 @@ public class AutoExeStepDefinition {
     public void verifyThatENTERACCOUNTINFORMATIONIsVisible() {
         Assert.assertTrue(auto.enterAccountVisible.isDisplayed());
     }
+
     @And("Fill details: Title, Name, Email, Password, Date of birth")
     public void fillDetailsTitleNameEmailPasswordDateOfBirth() {
 
@@ -66,11 +70,13 @@ public class AutoExeStepDefinition {
         actions.sendKeys(Keys.TAB).sendKeys("7").sendKeys(Keys.TAB)
                 .sendKeys("May").sendKeys(Keys.TAB).sendKeys("1983").perform();
     }
+
     @And("Select checkbox Sign up for our newsletter")
     public void selectCheckboxSignUpForOurNewsletter() {
         auto.newsletter.click();
 
     }
+
     @And("Select checkbox Receive special offers from our partners")
     public void selectCheckboxReceiveSpecialOffersFromOurPartners() {
         auto.receive.click();
@@ -95,6 +101,7 @@ public class AutoExeStepDefinition {
                 .sendKeys(faker.phoneNumber().phoneNumber())
                 .sendKeys(Keys.TAB).click().perform();
     }
+
     @And("Click Create Account button")
     public void clickCreateAccountButton() {
         auto.createAccount.click();
@@ -124,6 +131,7 @@ public class AutoExeStepDefinition {
     public void verifyThatACCOUNTDELETEDIsVisibleAndClickContinueButton() {
         Assert.assertTrue(auto.deleteAccountText.isDisplayed());
     }
+
     @And("wait {int} second")
     public void waitSecond(int second) {
         try {
@@ -132,6 +140,7 @@ public class AutoExeStepDefinition {
             e.printStackTrace();
         }
     }
+
     @And("Verify Login to your account is visible")
     public void verifyLoginToYourAccountIsVisible() {
         Assert.assertTrue(auto.loginAccountVisible.isDisplayed());
@@ -142,6 +151,7 @@ public class AutoExeStepDefinition {
         auto.loginEmail.sendKeys("ydu82@hotmail.com");
         auto.loginPassword.sendKeys("123456");
     }
+
     @And("Click login button")
     public void clickLoginButton() {
         auto.loginButton.click();
@@ -152,10 +162,12 @@ public class AutoExeStepDefinition {
         auto.loginEmail.sendKeys(faker.internet().emailAddress());
         auto.loginPassword.sendKeys(faker.internet().password());
     }
+
     @And("Verify error Your email or password is incorrect is visible")
     public void verifyErrorYourEmailOrPasswordIsIncorrectIsVisible() {
         Assert.assertTrue(auto.incorrectUser.isDisplayed());
     }
+
     @And("Click Logout button")
     public void clickLogoutButton() {
         auto.logoutButton.click();
@@ -171,10 +183,12 @@ public class AutoExeStepDefinition {
         auto.name.sendKeys("emrecan");
         auto.email.sendKeys("ydu82@hotmail.com");
     }
+
     @And("Verify error Email Address already exist is visible")
     public void verifyErrorEmailAddressAlreadyExistIsVisible() {
         Assert.assertTrue(auto.emailAlreadyExists.isDisplayed());
     }
+
     @And("Click on Contact Us button")
     public void clickOnContactUsButton() {
         auto.contactUsButton.click();
@@ -192,12 +206,14 @@ public class AutoExeStepDefinition {
         auto.contactSubject.sendKeys("Automation Exercises tests");
         auto.contactMesaj.sendKeys("Automation Exercises tests very good");
     }
+
     @And("Upload file")
     public void uploadFile() {
         String dosyaYolu = "C:\\Users\\Lenovo\\OneDrive\\Masaüstü\\ısı.PNG";
         wait.until(ExpectedConditions.visibilityOf(auto.contactUploadFile));
         auto.contactUploadFile.sendKeys(dosyaYolu);
     }
+
     @And("Click Submit button")
     public void clickSubmitButton() {
         auto.contactSubmitButton.click();
@@ -208,15 +224,18 @@ public class AutoExeStepDefinition {
         Driver.getDriver().switchTo().alert().accept();
 
     }
+
     @And("Verify success message Success Your details have been submitted successfully is visible")
     public void verifySuccessMessageSuccessYourDetailsHaveBeenSubmittedSuccessfullyIsVisible() {
         Assert.assertTrue(auto.successMesaj.isDisplayed());
     }
+
     @And("Click Home button and verify that landed to home page successfully")
     public void clickHomeButtonAndVerifyThatLandedToHomePageSuccessfully() {
         auto.homeButton.click();
         Assert.assertTrue(auto.Anasayfa.isDisplayed());
     }
+
     @And("Click on Test Cases button")
     public void clickOnTestCasesButton() {
         auto.testCasesButton.click();
@@ -226,15 +245,18 @@ public class AutoExeStepDefinition {
     public void verifyUserIsNavigatedToTestCasesPageSuccessfully() {
         Assert.assertTrue(auto.testCasesPage.isDisplayed());
     }
+
     @And("Click on Products button")
     public void clickOnProductsButton() {
         auto.productsButton.click();
 
     }
+
     @And("Verify user is navigated to ALL PRODUCTS page successfully")
     public void verifyUserIsNavigatedToALLPRODUCTSPageSuccessfully() {
         Assert.assertTrue(auto.allproductsVisible.isDisplayed());
     }
+
     @And("The products list is visible")
     public void theProductsListIsVisible() {
         Assert.assertTrue(auto.productsVisible.isDisplayed());
@@ -254,12 +276,14 @@ public class AutoExeStepDefinition {
     public void verifyThatDetailDetailIsVisibleProductNameCategoryPriceAvailabilityConditionBrand() {
         Assert.assertTrue(auto.productsInformation.isDisplayed());
     }
+
     @And("Enter product name in search input and click search button")
     public void enterProductNameInSearchInputAndClickSearchButton() {
         auto.searchProduct.sendKeys("winter top");
         auto.searchButton.click();
 
     }
+
     @And("Verify SEARCHED PRODUCTS is visible")
     public void verifySEARCHEDPRODUCTSIsVisible() {
         Assert.assertTrue(auto.searchProductVisible.isDisplayed());
@@ -293,21 +317,25 @@ public class AutoExeStepDefinition {
         }
         Driver.getDriver().navigate().back();
     }
+
     @And("Scroll down to footer")
     public void scrollDownToFooter() {
         js.executeScript("arguments[0].scrollIntoView(true);", auto.subscription);
     }
+
     @And("Verify text SUBSCRIPTION")
     public void verifyTextSUBSCRIPTION() {
         String actualText = auto.subscription.getText();
         String expectedText = "SUBSCRIPTION";
         Assert.assertEquals(expectedText, actualText);
     }
+
     @And("Enter email address in input and click arrow button")
     public void enterEmailAddressInInputAndClickArrowButton() {
         auto.subscriptionEmail.sendKeys("ydu82@hotmail.com");
         auto.subscriptionEmailButton.click();
     }
+
     @And("Verify success message You have been successfully subscribed is visible")
     public void verifySuccessMessageYouHaveBeenSuccessfullySubscribedIsVisible() {
         String actualSuccessMessage = auto.subscriptionTextVisible.getText();
@@ -315,28 +343,34 @@ public class AutoExeStepDefinition {
         wait.until(ExpectedConditions.visibilityOf(auto.subscriptionTextVisible));
         Assert.assertEquals(expectedSuccessMessage, actualSuccessMessage);
     }
+
     @And("Click Cart button")
     public void clickCartButton() {
         auto.cartButton.click();
     }
+
     @And("Hover over first product and click Add to cart")
     public void hoverOverFirstProductAndClickAddToCart() {
         js.executeScript("arguments[0].scrollIntoView(true);", auto.clickAddCartFirst);
         auto.clickAddCartFirst.click();
     }
+
     @And("Click Continue Shopping button")
     public void clickContinueShoppingButton() {
         auto.continueShoppingButton.click();
     }
+
     @And("Hover over second product and click Add to cart")
     public void hoverOverSecondProductAndClickAddToCart() {
         js.executeScript("arguments[0].scrollIntoView(true);", auto.clickAddCartSecond);
         auto.clickAddCartSecond.click();
     }
+
     @And("Click View Cart button")
     public void clickViewCartButton() {
         auto.viewCart.click();
     }
+
     @And("Verify both products are added to Cart")
     public void verifyBothProductsAreAddedToCart() {
         for (WebElement w : auto.viewCartInfo) {
@@ -344,6 +378,7 @@ public class AutoExeStepDefinition {
             Assert.assertTrue(w.isDisplayed());
         }
     }
+
     @And("Verify their prices quantity and total price")
     public void verifyTheirPricesQuantityAndTotalPrice() {
         for (WebElement w : auto.cartPrice) {
@@ -355,26 +390,31 @@ public class AutoExeStepDefinition {
             Assert.assertTrue(each.isDisplayed());
         }
     }
+
     @And("Click View Product for any product on home page")
     public void clickViewProductForAnyProductOnHomePage() {
         for (int i = 0; i < auto.viewProduct.size(); i++) {
             auto.viewProduct.get(rnd.nextInt(auto.viewProduct.size())).click();
         }
     }
+
     @And("Verify product detail is opened")
     public void verifyProductDetailIsOpened() {
         js.executeScript("arguments[0].scrollIntoView(true);", auto.viewProductVisible);
         Assert.assertTrue(auto.viewProductVisible.isDisplayed());
     }
+
     @And("Increase quantity to four")
     public void increaseQuantityToFour() {
         auto.productQuantity.clear();
         auto.productQuantity.sendKeys("4");
     }
+
     @And("Click Add to cart button")
     public void clickAddToCartButton() {
         auto.productAddToCart.click();
     }
+
     @And("Verify that product is displayed in cart page with exact quantity")
     public void verifyThatProductIsDisplayedInCartPageWithExactQuantity() {
         js.executeScript("arguments[0].scrollIntoView(true);", auto.productExactQuantityCart);
@@ -382,24 +422,29 @@ public class AutoExeStepDefinition {
         String expectedQuantity = "4";
         Assert.assertEquals(expectedQuantity, actualQuantity);
     }
+
     @And("Add products to cart")
     public void addProductsToCart() {
-      js.executeScript("arguments[0].scrollIntoView(true);", auto.productAddToCartHomePage);
-      auto.productAddToCartHomePage.click();
-      auto.viewCart.click();
+        js.executeScript("arguments[0].scrollIntoView(true);", auto.productAddToCartHomePage);
+        auto.productAddToCartHomePage.click();
+        auto.viewCart.click();
     }
+
     @And("Verify that cart page is displayed")
     public void verifyThatCartPageIsDisplayed() {
         Assert.assertTrue(auto.cartPageVisible.isDisplayed());
     }
+
     @And("Click Proceed To Checkout")
     public void clickProceedToCheckout() {
         auto.proceedToCheckout.click();
     }
+
     @And("Click Register Login button")
     public void clickRegisterLoginButton() {
         auto.proceedToCheckoutLogin.click();
     }
+
     @And("Fill all details in Signup and create account")
     public void fillAllDetailsInSignupAndCreateAccount() {
         auto.name.sendKeys(faker.name().fullName());
@@ -433,16 +478,19 @@ public class AutoExeStepDefinition {
                 .sendKeys(Keys.TAB).click().perform();
         auto.createAccount.click();
     }
+
     @And("Verify ACCOUNT CREATED and click Continue button")
     public void verifyACCOUNTCREATEDAndClickContinueButton() {
         js.executeScript("arguments[0].scrollIntoView(true);", auto.AccountCreatedVisible);
         Assert.assertTrue(auto.AccountCreatedVisible.isDisplayed());
         auto.continueButton.click();
     }
+
     @And("Verify Logged in as username at top")
     public void verifyLoggedInAsUsernameAtTop() {
         Assert.assertTrue(auto.loggedText.isDisplayed());
     }
+
     @And("Verify Address Details and Review Your Order")
     public void verifyAddressDetailsAndReviewYourOrder() {
         js.executeScript("arguments[0].scrollIntoView(true);", auto.adressDetails);
@@ -450,12 +498,14 @@ public class AutoExeStepDefinition {
         js.executeScript("arguments[0].scrollIntoView(true);", auto.reviewYourOrder);
         Assert.assertTrue(auto.reviewYourOrder.isDisplayed());
     }
+
     @And("Enter description in comment text area and click Place Order")
     public void enterDescriptionInCommentTextAreaAndClickPlaceOrder() {
         js.executeScript("arguments[0].scrollIntoView(true);", auto.commentAboutYourOrder);
         auto.commentAboutYourOrder.sendKeys(faker.hitchhikersGuideToTheGalaxy().starship());
         auto.placeOrderButton.click();
     }
+
     @And("Enter payment details: Name on Card, Card Number, CVC, Expiration date")
     public void enterPaymentDetailsNameOnCardCardNumberCVCExpirationDate() {
         auto.nameOnCard.sendKeys(faker.name().fullName());
@@ -464,6 +514,7 @@ public class AutoExeStepDefinition {
                 .sendKeys(Keys.TAB).sendKeys("311").sendKeys(Keys.TAB)
                 .sendKeys("12").sendKeys(Keys.TAB).sendKeys("2027").perform();
     }
+
     @And("Click Pay and Confirm Order button")
     public void clickPayAndConfirmOrderButton() {
         auto.payAndConfirmOrderButton.click();
@@ -471,6 +522,7 @@ public class AutoExeStepDefinition {
         Assert.assertTrue(auto.orderPlacedSuccessMesage.isDisplayed());
         Driver.getDriver().navigate().forward();
     }
+
     @And("Verify success message Your order has been placed successfully!")
     public void verifySuccessMessageYourOrderHasBeenPlacedSuccessfully() {
         Driver.getDriver().navigate().refresh();
@@ -487,14 +539,51 @@ public class AutoExeStepDefinition {
     public void clickXButtonCorrespondingToParticularProduct() {
         auto.XButton.click();
     }
-
     @And("Verify that product is removed from the cart")
     public void verifyThatProductIsRemovedFromTheCart() {
-        for (WebElement w:auto.CartProductList) {
-            if (auto.CartProductList.size()==1){
+        Assert.assertTrue(auto.cartEmpty.isDisplayed());
+    }
 
-            }
+    @Then("Verify that categories are visible on left side bar")
+    public void verifyThatCategoriesAreVisibleOnLeftSideBar() {
+        js.executeScript("arguments[0].scrollIntoView(true);", auto.category);
+        Assert.assertTrue(auto.category.isDisplayed());
+    }
+    @And("Click on Women category")
+    public void clickOnWomenCategory() {
+        auto.WomenCategory.click();
+    }
+    @And("Click on any category link under Women category, for example: Dress")
+    public void clickOnAnyCategoryLinkUnderWomenCategoryForExampleDress() {
+        auto.WomenCategorList.get(rnd.nextInt(auto.WomenCategorList.size())).click();
+        //for (WebElement w:auto.WomenCategorList) {
+        //    w.click();
+        //    try {
+        //        Thread.sleep(2000);
+        //    } catch (InterruptedException e) {
+        //        e.printStackTrace();
+        //    }
+        //    Assert.assertTrue(auto.WomenCategorVisibility.isDisplayed());
+        //    Driver.getDriver().navigate().refresh();
+        //    auto.WomenCategory.click();
+        //    js.executeScript("arguments[0].scrollIntoView(true);", auto.category);
+        //}
 
-        }
+    }
+
+    @And("Verify that category page is displayed and confirm text WOMEN - TOPS PRODUCTS")
+    public void verifyThatCategoryPageIsDisplayedAndConfirmTextWOMENTOPSPRODUCTS() {
+        Assert.assertTrue(auto.WomenCategorVisibility.isDisplayed());
+    }
+    @And("On left side bar, click on any sub-category link of Men category")
+    public void onLeftSideBarClickOnAnySubCategoryLinkOfMenCategory() {
+        auto.menCategory.click();
+        auto.menCategorList.get(rnd.nextInt(auto.menCategorList.size())).click();
+
+    }
+    @And("Verify that user is navigated to that category page")
+    public void verifyThatUserIsNavigatedToThatCategoryPage() {
+        Assert.assertTrue(auto.menCategorVisible.isDisplayed());
     }
 }
+

@@ -166,8 +166,26 @@ public class AutomationExercisesPage {
     public WebElement orderPlacedSuccessMesage;
     @FindBy(xpath = "//tr[@id='product-1']//i[@class='fa fa-times']")
     public WebElement XButton ;
-    @FindBy(xpath = "//tbody//tr")
-    public List<WebElement> CartProductList ;
+    @FindBy(xpath = "//*[text()='Cart is empty!']")
+    public WebElement cartEmpty;
+    @FindBy(xpath = "//h2[normalize-space()='Category']")
+    public WebElement category;
+    @FindBy(xpath = "(//*[@class='fa fa-plus'])[1]")
+    public WebElement WomenCategory;
+    @FindBy(xpath = "//*[@id=\"Women\"]//li/a")
+    public List<WebElement> WomenCategorList;
+    @FindBy(xpath = "//*[@class='features_items']")
+    public WebElement WomenCategorVisibility;
+    @FindBy(xpath = "(//*[@class='fa fa-plus'])[2]")
+    public WebElement menCategory;
+    @FindBy(xpath = "//*[@id=\"Men\"]//li/a")
+    public List<WebElement> menCategorList;
+    @FindBy(xpath = "//*[@class='features_items']")
+    public WebElement menCategorVisible;
+    @FindBy(xpath = "//*[text()='Tops ']")
+    public WebElement womenTops;
+    @FindBy(xpath = "//*[@id=\"Women\"]//li")
+    public List<WebElement> womenCategorList;
 
 
 
