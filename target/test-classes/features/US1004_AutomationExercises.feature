@@ -1,5 +1,5 @@
 Feature: US1004 Kullanici bilgileri ile hesap olusturur
-
+  @pr2
   Scenario: SN4 kullanici dogru mail adresi ile giris yapar
     Given Navigate to url "autoUrl"
     Then Verify that home page is visible successfully

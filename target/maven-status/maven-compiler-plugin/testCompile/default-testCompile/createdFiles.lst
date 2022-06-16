@@ -1,0 +1,7 @@
+utilities\Driver.class
+pages\AutomationExercisesPage.class
+stepDefinitions\AutoExeStepDefinition.class
+runners\TestRunner1.class
+stepDefinitions\Hooks.class
+runners\TestRunner2.class
+utilities\ConfigReader.class

@@ -1,5 +1,5 @@
 Feature: US1003 Kullanici bilgileri ile hesap olusturur
-
+  @pr1
   Scenario: SN3 kullanici yanlis mail ve password ile giris yapilamadigini test eder
     Given Navigate to url "autoUrl"
     Then Verify that home page is visible successfully

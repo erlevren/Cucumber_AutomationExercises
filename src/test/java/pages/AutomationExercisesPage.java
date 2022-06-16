@@ -164,6 +164,10 @@ public class AutomationExercisesPage {
     public WebElement payAndConfirmOrderButton;
     @FindBy(xpath = "//*[@id='success_message']")
     public WebElement orderPlacedSuccessMesage;
+    @FindBy(xpath = "//tr[@id='product-1']//i[@class='fa fa-times']")
+    public WebElement XButton ;
+    @FindBy(xpath = "//tbody//tr")
+    public List<WebElement> CartProductList ;
 
 
 

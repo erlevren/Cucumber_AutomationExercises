@@ -1,11 +1,10 @@
-Feature: US1015 Kullanici AutomationExercises Sitesini Test Eder
+Feature: US1016 Kullanici AutomationExercises Sitesini Test Eder
 
-  Scenario: SN15 kullanici urun secer ve kart bilgileri ile urun siparis eder
+  Scenario: SN16 kullanici urun secer ve kart bilgileri ile urun siparis eder
     Given Navigate to url "autoUrl"
     Then Verify that home page is visible successfully
     And Click on SignupLogin button
-    And Fill all details in Signup and create account
-    And Verify ACCOUNT CREATED and click Continue button
+    And Fill email, password and click Login button
     And Verify Logged in as username at top
     And Add products to cart
     And Click Cart button
@@ -18,5 +17,3 @@ Feature: US1015 Kullanici AutomationExercises Sitesini Test Eder
     And Verify success message Your order has been placed successfully!
     And Click Delete Account button
     And Verify that ACCOUNT DELETED is visible and click Continue button
-
-

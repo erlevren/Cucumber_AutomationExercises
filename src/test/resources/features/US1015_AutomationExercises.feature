@@ -1,6 +1,6 @@
 Feature: US1015 Kullanici AutomationExercises Sitesini Test Eder
 
-  Scenario: SN15 kullanici anasayfada random urun secer ve yeni bir hesap olusturur
+  Scenario: SN15 kullanici urun secer ve kart bilgileri ile urun siparis eder
     Given Navigate to url "autoUrl"
     Then Verify that home page is visible successfully
     And Click on SignupLogin button

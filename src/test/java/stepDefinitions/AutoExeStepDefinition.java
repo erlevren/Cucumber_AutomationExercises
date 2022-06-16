@@ -475,4 +475,26 @@ public class AutoExeStepDefinition {
     public void verifySuccessMessageYourOrderHasBeenPlacedSuccessfully() {
         Driver.getDriver().navigate().refresh();
     }
+
+    @And("Fill email, password and click Login button")
+    public void fillEmailPasswordAndClickLoginButton() {
+        auto.loginEmail.sendKeys("ydu82@hotmail.com");
+        auto.loginPassword.sendKeys("123456");
+        auto.loginButton.click();
+    }
+
+    @And("Click X button corresponding to particular product")
+    public void clickXButtonCorrespondingToParticularProduct() {
+        auto.XButton.click();
+    }
+
+    @And("Verify that product is removed from the cart")
+    public void verifyThatProductIsRemovedFromTheCart() {
+        for (WebElement w:auto.CartProductList) {
+            if (auto.CartProductList.size()==1){
+
+            }
+
+        }
+    }
 }
