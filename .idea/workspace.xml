@@ -5,47 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c68c0590-49b7-48dc-a83d-b8a07591b98e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1019_AutomationExercises.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1020_AutomationExercises.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1021_AutomationExercises.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1022_AutomationExercises.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1023_AutomationExercises.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1024_AutomationExercises.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1025_AutomationExercises.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1026_AutomationExercises.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/AutomationExercisesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AutomationExercisesPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/AutoExeStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/AutoExeStepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1001_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1001_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1002_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1002_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1003_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1003_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1004_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1004_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1005_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1005_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1006_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1006_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1007_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1007_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1008_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1008_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1009_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1009_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1010_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1010_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1011_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1011_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1012_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1012_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1013_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1013_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1014_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1014_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1015_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1015_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1016_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1016_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1017_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1017_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1018_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1018_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/US1001_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/US1001_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/US1002_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/US1002_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/US1003_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/US1003_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/US1004_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/US1004_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/US1005_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/US1005_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/US1006_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/US1006_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/US1007_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/US1007_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/US1008_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/US1008_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/US1009_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/US1009_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/US1010_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/US1010_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/US1011_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/US1011_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/US1012_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/US1012_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/US1013_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/US1013_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/US1014_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/US1014_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/US1015_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/US1015_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/US1016_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/US1016_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/US1017_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/US1017_AutomationExercises.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/US1018_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/US1018_AutomationExercises.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/US1020_AutomationExercises.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/US1020_AutomationExercises.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pages/AutomationExercisesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/AutomationExercisesPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/AutoExeStepDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/AutoExeStepDefinition.class" afterDir="false" />
     </list>
@@ -91,15 +60,15 @@
       <recent name="C:\javademos\AutomationExercises\src\test\resources\features" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: SN20 user tests that the products have been added to the cart">
-    <configuration name="Feature: US1018_AutomationExercises" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: US1026_AutomationExercises">
+    <configuration name="Feature: US1022_AutomationExercises" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1018_AutomationExercises.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1022_AutomationExercises.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AutomationExercises" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: US1018_AutomationExercises" />
+      <option name="SUGGESTED_NAME" value="Feature: US1022_AutomationExercises" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -111,14 +80,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: US1019_AutomationExercises" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: US1023_AutomationExercises" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1019_AutomationExercises.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1023_AutomationExercises.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AutomationExercises" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: US1019_AutomationExercises" />
+      <option name="SUGGESTED_NAME" value="Feature: US1023_AutomationExercises" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -130,14 +99,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: US1020_AutomationExercises" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: US1024_AutomationExercises" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1020_AutomationExercises.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1024_AutomationExercises.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AutomationExercises" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: US1020_AutomationExercises" />
+      <option name="SUGGESTED_NAME" value="Feature: US1024_AutomationExercises" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -149,15 +118,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: SN20 kullanici urun kategori bolumundan secim yapar" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: US1025_AutomationExercises" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1020_AutomationExercises.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1025_AutomationExercises.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AutomationExercises" />
-      <option name="NAME_FILTER" value="^SN20 kullanici urun kategori bolumundan secim yapar$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^SN20 kullanici urun kategori bolumundan secim yapar$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: SN20 kullanici urun kategori bolumundan secim yapar" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: US1025_AutomationExercises" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -169,15 +137,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: SN20 user tests that the products have been added to the cart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: US1026_AutomationExercises" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1020_AutomationExercises.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1026_AutomationExercises.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AutomationExercises" />
-      <option name="NAME_FILTER" value="^SN20 user tests that the products have been added to the cart$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^SN20 user tests that the products have been added to the cart$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: SN20 user tests that the products have been added to the cart" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: US1026_AutomationExercises" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -190,19 +157,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber Java.Feature: US1018_AutomationExercises" />
-      <item itemvalue="Cucumber Java.Feature: US1019_AutomationExercises" />
-      <item itemvalue="Cucumber Java.Feature: US1020_AutomationExercises" />
-      <item itemvalue="Cucumber Java.Scenario: SN20 kullanici urun kategori bolumundan secim yapar" />
-      <item itemvalue="Cucumber Java.Scenario: SN20 user tests that the products have been added to the cart" />
+      <item itemvalue="Cucumber Java.Feature: US1022_AutomationExercises" />
+      <item itemvalue="Cucumber Java.Feature: US1023_AutomationExercises" />
+      <item itemvalue="Cucumber Java.Feature: US1024_AutomationExercises" />
+      <item itemvalue="Cucumber Java.Feature: US1025_AutomationExercises" />
+      <item itemvalue="Cucumber Java.Feature: US1026_AutomationExercises" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: SN20 user tests that the products have been added to the cart" />
-        <item itemvalue="Cucumber Java.Feature: US1020_AutomationExercises" />
-        <item itemvalue="Cucumber Java.Scenario: SN20 kullanici urun kategori bolumundan secim yapar" />
-        <item itemvalue="Cucumber Java.Feature: US1019_AutomationExercises" />
-        <item itemvalue="Cucumber Java.Feature: US1018_AutomationExercises" />
+        <item itemvalue="Cucumber Java.Feature: US1026_AutomationExercises" />
+        <item itemvalue="Cucumber Java.Feature: US1025_AutomationExercises" />
+        <item itemvalue="Cucumber Java.Feature: US1024_AutomationExercises" />
+        <item itemvalue="Cucumber Java.Feature: US1023_AutomationExercises" />
+        <item itemvalue="Cucumber Java.Feature: US1022_AutomationExercises" />
       </list>
     </recent_temporary>
   </component>

@@ -196,8 +196,36 @@ public class AutomationExercisesPage {
     public WebElement continueShoppingButtonProduct;
     @FindBy(xpath = "//*[@id='cart_info']")
     public WebElement cartTable;
-
-
+    @FindBy(xpath = "//*[text()='Write Your Review']")
+    public WebElement writeYourReview;
+    @FindBy(xpath = "//input[@id='name']")
+    public WebElement writeYourReviewName;
+    @FindBy(xpath = "//input[@id='email']")
+    public WebElement writeYourReviewMail;
+    @FindBy(xpath = "//textarea[@id='review']")
+    public WebElement writeYourReviewComment;
+    @FindBy(xpath = "//button[@id='button-review']")
+    public WebElement writeYourReviewSubmit;
+    @FindBy(xpath = "//*[text()='Thank you for your review.']")
+    public WebElement writeYourReviewText;
+    @FindBy(xpath = "//h2[normalize-space()='recommended items']")
+    public WebElement recommendedItems;
+    @FindBy(xpath = "//div[@class='item active']//div[1]//div[1]//div[1]//div[1]//a[1]")
+    public WebElement recommendedItemsAddToCart;
+    @FindBy(xpath = "//*[@id='cart_info']")
+    public WebElement recommendedItemsAddToCartAfterCartPage;
+    @FindBy(id = "address_delivery")
+    public WebElement deliveryAdress;
+    @FindBy(id = "address_invoice")
+    public WebElement billingAddress;
+    @FindBy(xpath = "//*[text()='Download Invoice']")
+    public WebElement downloadInvoiceButton;
+    @FindBy(xpath = "//*[text()='Congratulations! Your order has been confirmed!']")
+    public WebElement downloadInvoiceText;
+    @FindBy(xpath = "//*[@class='fa fa-angle-up']")
+    public WebElement moveUp;
+    @FindBy(xpath = "(//*[@class='carousel-inner'])[1]")
+    public WebElement moveUpHomePage;
 
 
 

@@ -15,6 +15,8 @@ import pages.AutomationExercisesPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.time.Duration;
 import java.util.Random;
 
@@ -664,6 +666,97 @@ public class AutoExeStepDefinition {
     public void verifyThatThoseProductsAreVisibleInCartAfterLoginAsWell() {
         js.executeScript("arguments[0].scrollIntoView(true);", auto.cartTable);
         Assert.assertTrue(auto.cartTable.isDisplayed());
+    }
+
+    @And("Click on View Product button")
+    public void clickOnViewProductButton() {
+        auto.firstProduct.click();
+    }
+
+    @And("Verify Write Your Review is visible")
+    public void verifyWriteYourReviewIsVisible() {
+        Assert.assertTrue(auto.writeYourReview.isDisplayed());
+    }
+
+    @And("Enter name, email and review")
+    public void enterNameEmailAndReview() {
+        auto.writeYourReviewName.sendKeys(faker.name().name());
+        auto.writeYourReviewMail.sendKeys(faker.internet().emailAddress());
+        auto.writeYourReviewComment.sendKeys(faker.hitchhikersGuideToTheGalaxy().starship());
+
+    }
+    @And("Click Review Submit button")
+    public void clickReviewSubmitButton() {
+        auto.writeYourReviewSubmit.click();
+    }
+
+    @And("Verify success message Thank you for your review.")
+    public void verifySuccessMessageThankYouForYourReview() {
+        js.executeScript("arguments[0].scrollIntoView(true);", auto.writeYourReviewSubmit);
+        wait.until(ExpectedConditions.visibilityOf(auto.writeYourReviewText));
+        String actualText = auto.writeYourReviewText.getText();
+        String expectedText = "Thank you for your review.";
+        Assert.assertEquals(expectedText, actualText);
+    }
+
+    @Then("Scroll to bottom of page")
+    public void scrollToBottomOfPage() {
+        js.executeScript("arguments[0].scrollIntoView(true);", auto.recommendedItems);
+    }
+
+    @And("Verify RECOMMENDED ITEMS are visible")
+    public void verifyRECOMMENDEDITEMSAreVisible() {
+        Assert.assertTrue(auto.recommendedItems.isDisplayed());
+
+    }
+
+    @And("Click on Add To Cart on Recommended product")
+    public void clickOnAddToCartOnRecommendedProduct() {
+        auto.recommendedItemsAddToCart.click();
+    }
+
+    @And("Click on View Cart button")
+    public void clickOnViewCartButton() {
+        auto.viewCart.click();
+    }
+
+    @And("Verify that product is displayed in cart page")
+    public void verifyThatProductIsDisplayedInCartPage() {
+        Assert.assertTrue(auto.recommendedItemsAddToCartAfterCartPage.isDisplayed());
+    }
+
+    @And("Verify that the delivery address is same address filled at the time registration of account")
+    public void verifyThatTheDeliveryAddressIsSameAddressFilledAtTheTimeRegistrationOfAccount() {
+        Assert.assertTrue(auto.deliveryAdress.isDisplayed());
+    }
+
+    @And("Verify that the billing address is same address filled at the time registration of account")
+    public void verifyThatTheBillingAddressIsSameAddressFilledAtTheTimeRegistrationOfAccount() {
+        Assert.assertTrue(auto.billingAddress.isDisplayed());
+    }
+
+    @And("Click Download Invoice button and verify invoice is downloaded successfully.")
+    public void clickDownloadInvoiceButtonAndVerifyInvoiceIsDownloadedSuccessfully() {
+        js.executeScript("arguments[0].scrollIntoView(true);", auto.downloadInvoiceButton);
+        auto.downloadInvoiceButton.click();
+        String dosyaYolu = "C:\\Users\\Lenovo\\Downloads\\invoice.txt";
+        Files.exists(Paths.get(dosyaYolu));
+        Assert.assertTrue(auto.downloadInvoiceText.isDisplayed());
+    }
+
+    @And("Click on arrow at bottom right side to move upward")
+    public void clickOnArrowAtBottomRightSideToMoveUpward() {
+        auto.moveUp.click();
+    }
+
+    @And("Verify that page is scrolled up and Full-Fledged practice website for Automation Engineers text is visible on screen")
+    public void verifyThatPageIsScrolledUpAndFullFledgedPracticeWebsiteForAutomationEngineersTextIsVisibleOnScreen() {
+       Assert.assertTrue(auto.moveUpHomePage.isDisplayed());
+    }
+
+    @And("Scroll up page to top")
+    public void scrollUpPageToTop() {
+        actions.sendKeys(Keys.HOME).perform();
     }
 }
 
