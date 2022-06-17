@@ -1,6 +1,6 @@
-Feature: US1010 Kullanici AutomationExercises Sitesini Test Eder
+Feature: US1010 User tests www.automationexercise.com
 
-  Scenario: SN10 kullanici subscription bolumunu test eder
+  Scenario: SN10 user tests the subscription section
     Given Navigate to url "autoUrl"
     Then Verify that home page is visible successfully
     And Scroll down to footer

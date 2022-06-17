@@ -102,9 +102,9 @@ public class AutomationExercisesPage {
     public WebElement searchButton;
     @FindBy(xpath = "//h2[@class='title text-center']")
     public WebElement searchProductVisible;
-    @FindBy(xpath = "/html/body/section/div/div/div/div/div/div/div[1]/div[1]/p")
+    @FindBy(xpath = "/html/body/section/div/div/div/div/div/div/div/div[1]/p")
     public List<WebElement> products;
-    @FindBy(xpath = "//*[@class='features_items']")
+    @FindBy(xpath = "//*[@class='col-sm-9 padding-right']")
     public WebElement searchAllProductsVisible;
     @FindBy(xpath = "//h2[normalize-space()='Subscription']")
     public WebElement subscription;
@@ -182,11 +182,20 @@ public class AutomationExercisesPage {
     public List<WebElement> menCategorList;
     @FindBy(xpath = "//*[@class='features_items']")
     public WebElement menCategorVisible;
-    @FindBy(xpath = "//*[text()='Tops ']")
-    public WebElement womenTops;
-    @FindBy(xpath = "//*[@id=\"Women\"]//li")
-    public List<WebElement> womenCategorList;
-
+    @FindBy(xpath = "//*[@class='features_items']")
+    public WebElement brandVisible;
+    @FindBy(xpath = "//*[@class='nav nav-pills nav-stacked']//li/a")
+    public List<WebElement> brandList;
+    @FindBy(xpath = "//*[@class='brands_products']")
+    public WebElement productLeftSideBrandBar;
+    @FindBy(xpath = "//*[@class='features_items']")
+    public WebElement allproductsVisibleProductPage;
+    @FindBy(xpath = "/html/body/section/div/div/div/div/div/div/div/div/a")
+    public List<WebElement> allproductsAddToCard;
+    @FindBy(xpath = "//button[@class='btn btn-success close-modal btn-block']")
+    public WebElement continueShoppingButtonProduct;
+    @FindBy(xpath = "//*[@id='cart_info']")
+    public WebElement cartTable;
 
 
 

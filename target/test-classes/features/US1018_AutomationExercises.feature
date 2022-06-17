@@ -1,6 +1,6 @@
-Feature: US1018 Kullanici AutomationExercises Sitesini Test Eder
+Feature: US1018 User tests www.automationexercise.com
 
-  Scenario: SN18 kullanici urun secer ve kart bilgileri ile urun siparis eder
+  Scenario: SN18 user chooses from the product category section.
     Given Navigate to url "autoUrl"
     Then Verify that categories are visible on left side bar
     And Click on Women category

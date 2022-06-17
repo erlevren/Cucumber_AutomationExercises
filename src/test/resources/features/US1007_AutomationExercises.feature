@@ -1,6 +1,6 @@
-Feature: US1007 Kullanici AutomationExercises Sitesini Test Eder
+Feature: US1007 User tests www.automationexercise.com
 
-  Scenario: SN7 kullanici test cases sayfasini test eder
+  Scenario: SN7 user tests test cases page
     Given Navigate to url "autoUrl"
     Then Verify that home page is visible successfully
     And Click on Test Cases button

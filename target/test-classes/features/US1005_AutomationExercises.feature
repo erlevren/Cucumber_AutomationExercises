@@ -1,6 +1,6 @@
-Feature: US1005 Kullanici AutomationExercises Sitesini Test Eder
+Feature: US1005 User tests www.automationexercise.com
 
-  Scenario: SN5 kullanici kayitli olan email adresi ile kayit olamamayi test eder
+  Scenario: SN5 user tests not being able to register with the registered email address.
     Given Navigate to url "autoUrl"
     Then Verify that home page is visible successfully
     And wait 1 second

@@ -1,6 +1,6 @@
-Feature: US1012 Kullanici AutomationExercises Sitesini Test Eder
+Feature: US1012 User tests www.automationexercise.com
 
-  Scenario: SN12 kullanici cart bolumunu ve icerigini test eder
+  Scenario: SN12 user tests the card section and its contents
     Given Navigate to url "autoUrl"
     Then Verify that home page is visible successfully
     And Click on Products button

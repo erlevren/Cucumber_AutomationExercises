@@ -1,6 +1,6 @@
-Feature: US1017 Kullanici AutomationExercises Sitesini Test Eder
+Feature: US1017 User tests www.automationexercise.com
 
-  Scenario: SN17 kullanici urun secip sepete ekler ve sepetten siler
+  Scenario: SN17 user selects a product, adds it to the cart and deletes it from the cart.
     Given Navigate to url "autoUrl"
     Then Verify that home page is visible successfully
     And Add products to cart

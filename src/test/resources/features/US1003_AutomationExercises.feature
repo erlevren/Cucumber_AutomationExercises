@@ -1,6 +1,6 @@
-Feature: US1003 Kullanici bilgileri ile hesap olusturur
+Feature: US1003 User tests www.automationexercise.com
   @pr1
-  Scenario: SN3 kullanici yanlis mail ve password ile giris yapilamadigini test eder
+  Scenario: SN3 user tests that it is not possible to log in with the wrong mail and password.
     Given Navigate to url "autoUrl"
     Then Verify that home page is visible successfully
     And wait 1 second

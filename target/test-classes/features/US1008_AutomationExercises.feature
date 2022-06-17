@@ -1,6 +1,6 @@
-Feature: US1008 Kullanici AutomationExercises Sitesini Test Eder
+Feature: US1008 User tests www.automationexercise.com
 
-  Scenario: SN8 kullanici product sayfasini test eder
+  Scenario: SN8 user tests product page
     Given Navigate to url "autoUrl"
     Then Verify that home page is visible successfully
     And Click on Products button

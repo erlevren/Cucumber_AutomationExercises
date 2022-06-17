@@ -1,6 +1,6 @@
-Feature: US1009 Kullanici AutomationExercises Sitesini Test Eder
+Feature: US1009 User tests www.automationexercise.com
 
-  Scenario: SN9 kullanici product sayfasini test eder
+  Scenario: SN9 user tests product page
     Given Navigate to url "autoUrl"
     Then Verify that home page is visible successfully
     And Click on Products button

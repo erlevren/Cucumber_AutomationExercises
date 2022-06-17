@@ -1,6 +1,6 @@
-Feature: US1006 Kullanici AutomationExercises Sitesini Test Eder
+Feature: US1006 User tests www.automationexercise.com
 
-  Scenario: SN6 kullanici contact us sayfasini test eder
+  Scenario: SN6 user tests the contact us page
     Given Navigate to url "autoUrl"
     Then Verify that home page is visible successfully
     And Click on Contact Us button

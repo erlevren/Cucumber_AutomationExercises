@@ -1,6 +1,6 @@
-Feature: US1014 Kullanici AutomationExercises Sitesini Test Eder
+Feature: US1014 User tests www.automationexercise.com
 
-  Scenario: SN14 kullanici anasayfada random urun secer ve yeni bir hesap olusturur
+  Scenario: SN14 user chooses a random product on the homepage and creates a new account.
     Given Navigate to url "autoUrl"
     Then Verify that home page is visible successfully
     And Add products to cart

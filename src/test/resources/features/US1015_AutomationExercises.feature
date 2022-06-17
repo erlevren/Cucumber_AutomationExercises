@@ -1,6 +1,6 @@
-Feature: US1015 Kullanici AutomationExercises Sitesini Test Eder
+Feature: US1015 User tests www.automationexercise.com
 
-  Scenario: SN15 kullanici urun secer ve kart bilgileri ile urun siparis eder
+  Scenario: SN15 user selects the product and orders the product with the card information.
     Given Navigate to url "autoUrl"
     Then Verify that home page is visible successfully
     And Click on SignupLogin button

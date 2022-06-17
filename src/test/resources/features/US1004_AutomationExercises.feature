@@ -1,6 +1,6 @@
-Feature: US1004 Kullanici bilgileri ile hesap olusturur
+Feature: US1004 User tests www.automationexercise.com
   @pr2
-  Scenario: SN4 kullanici dogru mail adresi ile giris yapar
+  Scenario: SN4 user logs in with the correct e-mail address.
     Given Navigate to url "autoUrl"
     Then Verify that home page is visible successfully
     And wait 1 second

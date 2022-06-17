@@ -1,6 +1,6 @@
-Feature: US1013 Kullanici AutomationExercises Sitesini Test Eder
+Feature: US1013 User tests www.automationexercise.com
 
-  Scenario: SN13 kullanici anasayfada random urun secer
+  Scenario: SN13 User chooses random product on homepage
     Given Navigate to url "autoUrl"
     Then Verify that home page is visible successfully
     And Click View Product for any product on home page

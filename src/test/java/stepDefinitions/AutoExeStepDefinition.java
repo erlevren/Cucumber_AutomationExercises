@@ -286,6 +286,7 @@ public class AutoExeStepDefinition {
 
     @And("Verify SEARCHED PRODUCTS is visible")
     public void verifySEARCHEDPRODUCTSIsVisible() {
+        js.executeScript("arguments[0].scrollIntoView(true);", auto.searchProductVisible);
         Assert.assertTrue(auto.searchProductVisible.isDisplayed());
     }
 
@@ -584,6 +585,85 @@ public class AutoExeStepDefinition {
     @And("Verify that user is navigated to that category page")
     public void verifyThatUserIsNavigatedToThatCategoryPage() {
         Assert.assertTrue(auto.menCategorVisible.isDisplayed());
+    }
+
+    @And("Verify that Brands are visible on left side bar")
+    public void verifyThatBrandsAreVisibleOnLeftSideBar() {
+        js.executeScript("arguments[0].scrollIntoView(true);", auto.productLeftSideBrandBar);
+        Assert.assertTrue(auto.productLeftSideBrandBar.isDisplayed());
+    }
+
+    @And("Click on any brand name")
+    public void clickOnAnyBrandName() {
+        auto.brandList.get(rnd.nextInt(auto.brandList.size())).click();
+
+    }
+    @And("Verify that user is navigated to brand page and brand products are displayed")
+    public void verifyThatUserIsNavigatedToBrandPageAndBrandProductsAreDisplayed() {
+        js.executeScript("arguments[0].scrollIntoView(true);", auto.brandVisible);
+        Assert.assertTrue(auto.brandVisible.isDisplayed());
+    }
+
+    @And("On left side bar, click on any other brand link")
+    public void onLeftSideBarClickOnAnyOtherBrandLink() {
+        js.executeScript("arguments[0].scrollIntoView(true);", auto.productLeftSideBrandBar);
+        auto.brandList.get(rnd.nextInt(auto.brandList.size())).click();
+    }
+
+    @And("Verify that user is navigated to that brand page and can see products")
+    public void verifyThatUserIsNavigatedToThatBrandPageAndCanSeeProducts() {
+        js.executeScript("arguments[0].scrollIntoView(true);", auto.brandVisible);
+        Assert.assertTrue(auto.brandVisible.isDisplayed());
+
+    }
+
+    @And("Add those products to cart")
+    public void addThoseProductsToCart() {
+        js.executeScript("arguments[0].scrollIntoView(true);", auto.allproductsVisibleProductPage);
+        for (WebElement w:auto.allproductsAddToCard) {
+            js.executeScript("arguments[0].scrollIntoView(true);", auto.allproductsVisibleProductPage);
+            w.click();
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            auto.continueShoppingButtonProduct.click();
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    @And("Click Cart button and verify that products are visible in cart")
+    public void clickCartButtonAndVerifyThatProductsAreVisibleInCart() {
+        auto.cartButton.click();
+        js.executeScript("arguments[0].scrollIntoView(true);", auto.cartTable);
+        Assert.assertTrue(auto.cartTable.isDisplayed());
+
+
+    }
+
+    @And("Click Signup  Login button and submit login details")
+    public void clickSignupLoginButtonAndSubmitLoginDetails() {
+        auto.login.click();
+        auto.loginEmail.sendKeys("ydu82@hotmail.com");
+        auto.loginPassword.sendKeys("123456");
+
+
+    }
+
+    @And("Again, go to Cart page")
+    public void againGoToCartPage() {
+        auto.cartButton.click();
+    }
+
+    @And("Verify that those products are visible in cart after login as well")
+    public void verifyThatThoseProductsAreVisibleInCartAfterLoginAsWell() {
+        js.executeScript("arguments[0].scrollIntoView(true);", auto.cartTable);
+        Assert.assertTrue(auto.cartTable.isDisplayed());
     }
 }
 

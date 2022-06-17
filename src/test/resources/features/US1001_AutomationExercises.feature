@@ -1,6 +1,6 @@
-Feature: US1001 Kullanici bilgileri ile hesap olusturur
+Feature: US1001 User tests www.automationexercise.com
 
-    Scenario: SN1 kullanici automationexercise sitesine login olur
+    Scenario: user login to automationexercise site
       Given Navigate to url "autoUrl"
       Then Verify that home page is visible successfully
       And wait 1 second

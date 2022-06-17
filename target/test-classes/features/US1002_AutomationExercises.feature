@@ -1,6 +1,6 @@
-Feature: US1002 Kullanici bilgileri ile hesap olusturur
+Feature: US1002 User tests www.automationexercise.com
 
-  Scenario: SN2 kullanici automationexercise sitesine login olur ve hesabi siler
+  Scenario: SN2 user logs in to the automationexercise site and deletes the account.
     Given Navigate to url "autoUrl"
     Then Verify that home page is visible successfully
     And wait 1 second

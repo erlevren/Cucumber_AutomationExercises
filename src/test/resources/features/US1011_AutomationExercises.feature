@@ -1,6 +1,6 @@
-Feature: US1011 Kullanici AutomationExercises Sitesini Test Eder
+Feature: US1011 User tests www.automationexercise.com
 
-  Scenario: SN11 kullanici cart bolumunu ve subscription bolumunu test eder
+  Scenario: SN11 user tests the card section and the subscription section
     Given Navigate to url "autoUrl"
     Then Verify that home page is visible successfully
     And Click Cart button
